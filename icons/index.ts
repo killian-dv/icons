@@ -127,6 +127,7 @@ import { LayoutPanelTopIcon } from '@/icons/layout-panel-top';
 import { BookTextIcon } from '@/icons/book-text';
 import { ShowerHeadIcon } from '@/icons/shower-head';
 import { TelescopeIcon } from '@/icons/telescope';
+import { WineIcon } from '@/icons/wine';
 
 type IconListItem = {
   name: string;
@@ -1234,6 +1235,21 @@ const ICON_LIST: IconListItem[] = [
       'stargazing',
       'observe',
       'view',
+    ],
+  },
+  {
+    name: 'wine',
+    icon: WineIcon,
+    keywords: [
+      'wine',
+      'alcohol',
+      'beverage',
+      'bar',
+      'drink',
+      'glass',
+      'sommelier',
+      'vineyard',
+      'winery',
     ],
   },
 ];
